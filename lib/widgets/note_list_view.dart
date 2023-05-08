@@ -6,6 +6,7 @@ class NoteViewList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.separated(
+      padding: EdgeInsets.zero,
        itemBuilder: (context,index){
          return NoteItem();
        },
